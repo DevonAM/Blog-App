@@ -12,9 +12,11 @@ export const BlogProvider = ({ children }) => {
     ]);
   };
 
-  <BlogContext.Provider value={{ data: blogPosts, addBlogPost }}>
-    {children}
-  </BlogContext.Provider>;
+  return (
+    <BlogContext.Provider value={{ data: blogPosts, addBlogPost }}>
+      {children}
+    </BlogContext.Provider>
+  );
 };
 
 export default BlogContext;
