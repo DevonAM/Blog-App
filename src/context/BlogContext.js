@@ -1,4 +1,3 @@
-import { call } from "react-native-reanimated";
 import createDataContext from "./createDataContext";
 
 const blogReducer = (state, action) => {
