@@ -1,0 +1,9 @@
+{
+  "blogposts": [
+    {
+      "title": "New Post",
+      "content": "Some Content",
+      "id": 1
+    }
+  ]
+}
